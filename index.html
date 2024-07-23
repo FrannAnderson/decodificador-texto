@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <title>Decodificador de Texto</title>
+</head>
+
+<body>
+    <main class="main container">
+        <headeR class="cabecalho">
+            <h1>Decodificador de Texto</h1>
+        </headeR>
+
+        <div class="container-input">
+            <div class="input">
+                <textarea id="input-texto" placeholder="Digite seu texto"></textarea>
+                <p>⚠️Use apenas letras minúsculas e sem acento</p>
+            </div>
+
+            <div id="output">
+                <img src="img/boneca_logo.svg" alt="logo_boneca">
+                <h2>Sua mensagem aparecera aqui</h2>
+                <span>Digite um texto que você queira criptografar ou descriptografar</span>
+            </div>
+        </div>
+
+        <div class="button">
+            <div class="container-btn">
+                <button onclick="criptografar()" class="btn-criptografar">Criptografar</button>
+                <button onclick="descriptografar()" class="btn-descriptografar">Descriptografar</button>
+            </div>
+        </div>
+
+    </main>
+
+    <footer class="rodape">
+        <div class="icons">
+            <a href="https://github.com/FrannAnderson"><ion-icon name="logo-github"></ion-icon></a>
+            <a href="https://x.com/FranAnder_"><ion-icon name="logo-twitter"></ion-icon></a>
+            <a href="https://discord.gg/uAcm3arU"><ion-icon name="logo-discord"></ion-icon></a>
+        </div>
+        <h3>Redes Sociais</h3>
+    </footer>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>

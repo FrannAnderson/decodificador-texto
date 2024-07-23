@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+    --corprincipal: #EBF4F6;
+    --corsecundaria: #088395;
+    --cortitle: #4A249D;
+    --corpadrao: #000000;
+}
+
+body {
+    background-color: var(--corprincipal);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Rubik", sans-serif;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    padding: 2%;
+}
+
+.cabecalho h1 {
+    border-radius: 200px;
+    color: var(--cortitle);
+}
+
+
+.container-input {
+    display: flex;
+    justify-content: space-between;
+    padding: 10% 0 0 4%;
+
+}
+
+.container-input .input {
+    width: 400px;
+    height: 330px;
+}
+
+#input-texto {
+    width: 445px;
+    height: 350px;
+    font-size: 20px;
+    color: var(--cortitle);
+    background-color: transparent;
+    box-shadow: none;
+    border: none;
+    outline: 0;
+    padding: 10px;
+}
+
+#output {
+    display: flex;
+    flex-direction: column;
+    border: 3px solid var(--cortitle);
+    border-radius: 40px;
+    width: 395px;
+    height: 400px;
+    margin-right: 3%;
+}
+
+#output h2 {
+    text-align: center;
+    font-size: 25px;
+    color: var(--cortitle);
+}
+
+#output span {
+    font-size: 16px;
+    text-align: center;
+}
+
+#output img {
+    max-width: 300px;
+    max-height: 300px;
+    width: auto;
+    height: auto;
+    margin-top: 4%;
+}
+
+.container-btn button {
+    border: 2px solid var(--cortitle);
+    font-family: "Roboto", sans-serif;
+    border-radius: 200px;
+    text-decoration: none;
+    color: var(--corpadrao);
+    width: 360px;
+    height: 80px;
+    margin-left: 3%;
+    cursor: auto;
+}
+
+.btn-copiar {
+    border: 2px solid var(--cortitle);
+    border-radius: 200px;
+    text-decoration: none;
+    color: black;
+    width: 250px;
+    height: 80px;
+    margin-left: 15%;
+    margin-bottom: 6%;
+    cursor: auto;
+}
+
+.container-btn button:hover {
+    border: 2px solid wheat;
+    transition: 0.5s all;
+}
+
+.btn-copiar:hover {
+    border: 2px solid wheat;
+    transition: 0.5s all;
+}
+
+.rodape {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4%;
+    margin-top: 25px;
+    background: var(--corprincipal);
+    color: var(--cortitle)
+}
+
+
+
+.icons ion-ions {
+    width: 40px;
+    height: 40px;
+    color: var(--corsecundaria);
+}
+
+.icons ion-ions:hover {
+    border: 2px solid wheat;
+    transition: 0.5s all;
+}
+
+
+
+.rodape h3 {
+    font-size: 16px;
+
+}
